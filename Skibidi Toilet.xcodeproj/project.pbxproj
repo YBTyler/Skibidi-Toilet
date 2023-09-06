@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64D271A52AA7B854008F5437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D271A42AA7B854008F5437 /* AppDelegate.swift */; };
+		64D271A72AA7B854008F5437 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D271A62AA7B854008F5437 /* SceneDelegate.swift */; };
+		64D271A92AA7B854008F5437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D271A82AA7B854008F5437 /* ViewController.swift */; };
+		64D271AC2AA7B854008F5437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D271AA2AA7B854008F5437 /* Main.storyboard */; };
+		64D271AE2AA7B857008F5437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D271AD2AA7B857008F5437 /* Assets.xcassets */; };
+		64D271B12AA7B857008F5437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D271AF2AA7B857008F5437 /* LaunchScreen.storyboard */; };
+		64D271BC2AA7B857008F5437 /* Skibidi_ToiletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D271BB2AA7B857008F5437 /* Skibidi_ToiletTests.swift */; };
+		64D271C62AA7B857008F5437 /* Skibidi_ToiletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D271C52AA7B857008F5437 /* Skibidi_ToiletUITests.swift */; };
+		64D271C82AA7B857008F5437 /* Skibidi_ToiletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D271C72AA7B857008F5437 /* Skibidi_ToiletUITestsLaunchTests.swift */; };
+		64D271D92AA7C15C008F5437 /* skibi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D271D82AA7C15C008F5437 /* skibi.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64D271B82AA7B857008F5437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64D271992AA7B854008F5437 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D271A02AA7B854008F5437;
+			remoteInfo = "Skibidi Toilet";
+		};
+		64D271C22AA7B857008F5437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64D271992AA7B854008F5437 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D271A02AA7B854008F5437;
+			remoteInfo = "Skibidi Toilet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64D271A12AA7B854008F5437 /* Skibidi Toilet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skibidi Toilet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D271A42AA7B854008F5437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64D271A62AA7B854008F5437 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64D271A82AA7B854008F5437 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64D271AB2AA7B854008F5437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64D271AD2AA7B857008F5437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64D271B02AA7B857008F5437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64D271B22AA7B857008F5437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D271B72AA7B857008F5437 /* Skibidi ToiletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Skibidi ToiletTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D271BB2AA7B857008F5437 /* Skibidi_ToiletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skibidi_ToiletTests.swift; sourceTree = "<group>"; };
+		64D271C12AA7B857008F5437 /* Skibidi ToiletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Skibidi ToiletUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D271C52AA7B857008F5437 /* Skibidi_ToiletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skibidi_ToiletUITests.swift; sourceTree = "<group>"; };
+		64D271C72AA7B857008F5437 /* Skibidi_ToiletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skibidi_ToiletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64D271D82AA7C15C008F5437 /* skibi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = skibi.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D2719E2AA7B854008F5437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D271B42AA7B857008F5437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D271BE2AA7B857008F5437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64D271982AA7B854008F5437 = {
+			isa = PBXGroup;
+			children = (
+				64D271A32AA7B854008F5437 /* Skibidi Toilet */,
+				64D271BA2AA7B857008F5437 /* Skibidi ToiletTests */,
+				64D271C42AA7B857008F5437 /* Skibidi ToiletUITests */,
+				64D271A22AA7B854008F5437 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64D271A22AA7B854008F5437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64D271A12AA7B854008F5437 /* Skibidi Toilet.app */,
+				64D271B72AA7B857008F5437 /* Skibidi ToiletTests.xctest */,
+				64D271C12AA7B857008F5437 /* Skibidi ToiletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64D271A32AA7B854008F5437 /* Skibidi Toilet */ = {
+			isa = PBXGroup;
+			children = (
+				64D271D72AA7C15C008F5437 /* skibi toilet */,
+				64D271A42AA7B854008F5437 /* AppDelegate.swift */,
+				64D271A62AA7B854008F5437 /* SceneDelegate.swift */,
+				64D271A82AA7B854008F5437 /* ViewController.swift */,
+				64D271AA2AA7B854008F5437 /* Main.storyboard */,
+				64D271AD2AA7B857008F5437 /* Assets.xcassets */,
+				64D271AF2AA7B857008F5437 /* LaunchScreen.storyboard */,
+				64D271B22AA7B857008F5437 /* Info.plist */,
+			);
+			path = "Skibidi Toilet";
+			sourceTree = "<group>";
+		};
+		64D271BA2AA7B857008F5437 /* Skibidi ToiletTests */ = {
+			isa = PBXGroup;
+			children = (
+				64D271BB2AA7B857008F5437 /* Skibidi_ToiletTests.swift */,
+			);
+			path = "Skibidi ToiletTests";
+			sourceTree = "<group>";
+		};
+		64D271C42AA7B857008F5437 /* Skibidi ToiletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64D271C52AA7B857008F5437 /* Skibidi_ToiletUITests.swift */,
+				64D271C72AA7B857008F5437 /* Skibidi_ToiletUITestsLaunchTests.swift */,
+			);
+			path = "Skibidi ToiletUITests";
+			sourceTree = "<group>";
+		};
+		64D271D72AA7C15C008F5437 /* skibi toilet */ = {
+			isa = PBXGroup;
+			children = (
+				64D271D82AA7C15C008F5437 /* skibi.mp3 */,
+			);
+			name = "skibi toilet";
+			path = "../../skibi toilet";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64D271A02AA7B854008F5437 /* Skibidi Toilet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D271CB2AA7B857008F5437 /* Build configuration list for PBXNativeTarget "Skibidi Toilet" */;
+			buildPhases = (
+				64D2719D2AA7B854008F5437 /* Sources */,
+				64D2719E2AA7B854008F5437 /* Frameworks */,
+				64D2719F2AA7B854008F5437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Skibidi Toilet";
+			productName = "Skibidi Toilet";
+			productReference = 64D271A12AA7B854008F5437 /* Skibidi Toilet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64D271B62AA7B857008F5437 /* Skibidi ToiletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D271CE2AA7B857008F5437 /* Build configuration list for PBXNativeTarget "Skibidi ToiletTests" */;
+			buildPhases = (
+				64D271B32AA7B857008F5437 /* Sources */,
+				64D271B42AA7B857008F5437 /* Frameworks */,
+				64D271B52AA7B857008F5437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64D271B92AA7B857008F5437 /* PBXTargetDependency */,
+			);
+			name = "Skibidi ToiletTests";
+			productName = "Skibidi ToiletTests";
+			productReference = 64D271B72AA7B857008F5437 /* Skibidi ToiletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64D271C02AA7B857008F5437 /* Skibidi ToiletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D271D12AA7B857008F5437 /* Build configuration list for PBXNativeTarget "Skibidi ToiletUITests" */;
+			buildPhases = (
+				64D271BD2AA7B857008F5437 /* Sources */,
+				64D271BE2AA7B857008F5437 /* Frameworks */,
+				64D271BF2AA7B857008F5437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64D271C32AA7B857008F5437 /* PBXTargetDependency */,
+			);
+			name = "Skibidi ToiletUITests";
+			productName = "Skibidi ToiletUITests";
+			productReference = 64D271C12AA7B857008F5437 /* Skibidi ToiletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64D271992AA7B854008F5437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					64D271A02AA7B854008F5437 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					64D271B62AA7B857008F5437 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 64D271A02AA7B854008F5437;
+					};
+					64D271C02AA7B857008F5437 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 64D271A02AA7B854008F5437;
+					};
+				};
+			};
+			buildConfigurationList = 64D2719C2AA7B854008F5437 /* Build configuration list for PBXProject "Skibidi Toilet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64D271982AA7B854008F5437;
+			productRefGroup = 64D271A22AA7B854008F5437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64D271A02AA7B854008F5437 /* Skibidi Toilet */,
+				64D271B62AA7B857008F5437 /* Skibidi ToiletTests */,
+				64D271C02AA7B857008F5437 /* Skibidi ToiletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64D2719F2AA7B854008F5437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D271B12AA7B857008F5437 /* LaunchScreen.storyboard in Resources */,
+				64D271D92AA7C15C008F5437 /* skibi.mp3 in Resources */,
+				64D271AE2AA7B857008F5437 /* Assets.xcassets in Resources */,
+				64D271AC2AA7B854008F5437 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D271B52AA7B857008F5437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D271BF2AA7B857008F5437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D2719D2AA7B854008F5437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D271A92AA7B854008F5437 /* ViewController.swift in Sources */,
+				64D271A52AA7B854008F5437 /* AppDelegate.swift in Sources */,
+				64D271A72AA7B854008F5437 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D271B32AA7B857008F5437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D271BC2AA7B857008F5437 /* Skibidi_ToiletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D271BD2AA7B857008F5437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D271C62AA7B857008F5437 /* Skibidi_ToiletUITests.swift in Sources */,
+				64D271C82AA7B857008F5437 /* Skibidi_ToiletUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64D271B92AA7B857008F5437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D271A02AA7B854008F5437 /* Skibidi Toilet */;
+			targetProxy = 64D271B82AA7B857008F5437 /* PBXContainerItemProxy */;
+		};
+		64D271C32AA7B857008F5437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D271A02AA7B854008F5437 /* Skibidi Toilet */;
+			targetProxy = 64D271C22AA7B857008F5437 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64D271AA2AA7B854008F5437 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D271AB2AA7B854008F5437 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64D271AF2AA7B857008F5437 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D271B02AA7B857008F5437 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64D271C92AA7B857008F5437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64D271CA2AA7B857008F5437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64D271CC2AA7B857008F5437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65C7QD3FQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Skibidi Toilet/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tylerwickherst.Skibidi-Toilet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64D271CD2AA7B857008F5437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65C7QD3FQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Skibidi Toilet/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tylerwickherst.Skibidi-Toilet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64D271CF2AA7B857008F5437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65C7QD3FQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tylerwickherst.Skibidi-ToiletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skibidi Toilet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Skibidi Toilet";
+			};
+			name = Debug;
+		};
+		64D271D02AA7B857008F5437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65C7QD3FQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tylerwickherst.Skibidi-ToiletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skibidi Toilet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Skibidi Toilet";
+			};
+			name = Release;
+		};
+		64D271D22AA7B857008F5437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65C7QD3FQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tylerwickherst.Skibidi-ToiletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Skibidi Toilet";
+			};
+			name = Debug;
+		};
+		64D271D32AA7B857008F5437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65C7QD3FQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tylerwickherst.Skibidi-ToiletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Skibidi Toilet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64D2719C2AA7B854008F5437 /* Build configuration list for PBXProject "Skibidi Toilet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D271C92AA7B857008F5437 /* Debug */,
+				64D271CA2AA7B857008F5437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D271CB2AA7B857008F5437 /* Build configuration list for PBXNativeTarget "Skibidi Toilet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D271CC2AA7B857008F5437 /* Debug */,
+				64D271CD2AA7B857008F5437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D271CE2AA7B857008F5437 /* Build configuration list for PBXNativeTarget "Skibidi ToiletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D271CF2AA7B857008F5437 /* Debug */,
+				64D271D02AA7B857008F5437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D271D12AA7B857008F5437 /* Build configuration list for PBXNativeTarget "Skibidi ToiletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D271D22AA7B857008F5437 /* Debug */,
+				64D271D32AA7B857008F5437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64D271992AA7B854008F5437 /* Project object */;
+}
