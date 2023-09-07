@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         }
     }
     func skibidiSound(){
-        let url = Bundle.main.url(forResource:"skibi", withExtension: "mp3")
+        let url = Bundle.main.url(forResource:"skibidi", withExtension: "mp3")
         player = try! AVAudioPlayer(contentsOf:url!)
         player!.play()
     }

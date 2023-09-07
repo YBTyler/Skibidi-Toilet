@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640C7B272AA8B4B300BB079F /* skibidi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 640C7B262AA8B4B300BB079F /* skibidi.mp3 */; };
 		64D271A52AA7B854008F5437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D271A42AA7B854008F5437 /* AppDelegate.swift */; };
 		64D271A72AA7B854008F5437 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D271A62AA7B854008F5437 /* SceneDelegate.swift */; };
 		64D271A92AA7B854008F5437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D271A82AA7B854008F5437 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		640C7B262AA8B4B300BB079F /* skibidi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = skibidi.mp3; sourceTree = "<group>"; };
 		64D271A12AA7B854008F5437 /* Skibidi Toilet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skibidi Toilet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D271A42AA7B854008F5437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64D271A62AA7B854008F5437 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 		64D271D72AA7C15C008F5437 /* skibi toilet */ = {
 			isa = PBXGroup;
 			children = (
+				640C7B262AA8B4B300BB079F /* skibidi.mp3 */,
 				64D271D82AA7C15C008F5437 /* skibi.mp3 */,
 			);
 			name = "skibi toilet";
@@ -247,6 +250,7 @@
 				64D271D92AA7C15C008F5437 /* skibi.mp3 in Resources */,
 				64D271AE2AA7B857008F5437 /* Assets.xcassets in Resources */,
 				64D271AC2AA7B854008F5437 /* Main.storyboard in Resources */,
+				640C7B272AA8B4B300BB079F /* skibidi.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
